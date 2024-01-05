@@ -1,0 +1,10 @@
+variable "PROJECT_ID" {}
+variable "cluster_name" {}
+variable "location" {}
+variable "vpc_name" {}
+variable "region" {}
+variable "subnet" {}
+variable "pod_range" {}
+variable "service_range" {}
+variable "master_range" {}
+variable "min_master_version" {}
