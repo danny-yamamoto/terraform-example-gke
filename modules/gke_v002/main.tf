@@ -163,7 +163,7 @@ resource "google_container_node_pool" "prod-pool-hoge" {
 
   node_config {
     preemptible  = false
-    machine_type = "e2-standard-4"
+    machine_type = "e2-standard-8"
 
     metadata = {
       disable-legacy-endpoints = "true"
